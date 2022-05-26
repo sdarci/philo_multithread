@@ -3,6 +3,8 @@ I never thought philosophy would be so deadly...
 
 use make to compile the files.
 
+add compile flag "-fsanitize=pthread" in Makefile to check dataraces.
+
 ENG:
 Here are the things you need to know if you want to succeed this assignment:
 • One or more philosophers sit at a round table.
